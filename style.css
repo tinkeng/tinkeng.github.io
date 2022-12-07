@@ -1,0 +1,347 @@
+@font-face{
+    font-family:'AdventPro';
+    /* src:url('polices/AdventPro-Bold.ttf'); */
+    src:url('polices/AdventPro-ExtraLight.ttf');
+}
+/*******************************************NAVBAR************************************************************************/
+nav{
+    overflow: hidden;
+    background-color:antiquewhite;
+    Position:fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+ul{
+    padding: 0;
+    margin: 0;
+
+}
+li{
+    list-style-type:none ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    overflow: hidden;
+    background-color: #FFFAE1;
+    Position:fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li{
+    float: right;
+    font-size: 1.2em;
+
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align:center;
+    padding: 18px 16px;
+    color: black;
+    font-weight: bold;
+}
+select{
+    font-weight: bold;
+}
+#logo{
+    font-family: 'Dancing Script' , cursive;
+    font-weight:blod;
+    float: left;
+
+}
+html{
+scroll-behavior:smooth;
+}
+header{
+    background:url(image/image2.jpg)no-repeat 40% 40%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border-radius:0px 0px 0px 0px;
+    /* margin-bottom: 40px; */
+}
+h1{
+    font-size:7em;
+    padding: 300px 0px 0px 0%;
+    text-align: center;
+    text-shadow: 1px 3px 2px black;
+    /* text-shadow: 1px 3px 2px #ff9ff3; */
+    color:#f8a5c2;
+    animation: titre ease 3.5s;
+}
+#premierTrait{
+    height: 1px;
+    width: 20%;
+    margin: -3px auto;
+    background-color: #f8a5c2;
+    box-shadow: 1px 3px 2px black;
+    margin-top: 20px;
+    animation: titre ease 3.5s;
+}
+h2{
+    font-size:4em;
+    text-align: center;
+    text-shadow: -3px 3px 2px black;
+    color:#f8a5c2;
+    padding-top:10px;
+    animation: titre ease 3.5s;
+}
+@keyframes titre{
+    0%{
+        opacity:0;
+        transform:translate(0px,180px);
+    }
+    100%{
+        opacity:1;
+        transform:translate(0px,0px);
+    }
+}
+
+/********************************Deuxieme partie**************************************************************/
+main{
+
+    background-color: #FFFAE1;
+    padding-top: 0%;
+    padding-bottom:5%; 
+}
+.DeuxiemePartie h2 {
+    text-align: center;
+    font-size: 5em;
+}
+.DeuxiemePartie img{
+    border-radius:10px;
+    /* box-shadow: 5px 8px 5px 4px  rgba(0, 0, 0, 0.7); */
+}
+.DeuxiemePartie img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition:0.6s ease-in-out;
+}
+
+.element2 p{
+    font-size:1.4em;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp:4;
+overflow: hidden;
+padding-right: 10px;
+margin: 0%;
+}
+h3{
+    font-family:"Arial";
+    text-align: left;
+    font-size: 1.8em;
+    
+     color:#730922; 
+    
+}
+#top{
+    float: left;;
+    padding: 1px;
+
+}
+.element2 button{
+    background-color:#8B3732; 
+    font-size: 1em;
+    /* background-color: #E28FC8; */
+}
+/*****************************************LEFT PART ***************************************************************************************/
+/* #leftpart{
+    background-color: #FFFAE1;
+    border-radius: 20px;
+    padding: 25px;
+
+}
+.element{
+    padding: 70px 0;
+}
+.element img {
+    border-radius: 50%;
+    width: 300px;
+}
+.element p{
+font-size:1.2em;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp:3;
+overflow: hidden;
+padding-right: 20px;
+}
+
+.element .button{
+    text-align: right;
+    margin: 15px 4% 0 0;
+} */
+/******************************************************RIGHT PART********************************************************************/
+/* #rightpart{
+    background-color: #f6e58d/*#ffeaa7;
+    border-radius: 20px;
+    padding:20px;
+    height: 300;
+}
+.contenu{
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+   
+}
+.contenu h4{
+    position: relative;
+    top:50%;
+    color:#f8a5c2;
+    transform:translateY(-50%);
+    text-shadow: 1px 1px 0  #FFFAE1,1px -1px 0  #FFFAE1,-1px 1px 0  #FFFAE1,-1px -1px 0  #FFFAE1,1px 0px 0  #FFFAE1,
+    0px 1px 0  #FFFAE1,-1px 0px 0  #FFFAE1,0px -1px 0  #FFFAE1,
+}
+.contenu:hover{
+    transform: scale(1.08);
+    opacity:0.7;
+    transition: ease-out 0.2s; 
+}*/
+/*****************************************************FOOTER**************************************************/
+ footer{
+    background-color: #8B5F3C;
+    padding: 15px 0 4px 0;
+   
+} 
+ button{
+    background-color: #f8a5c2;
+}
+#newsletter h4{
+    font-size:3em;
+    text-align: center;
+    text-shadow: -3px 3px 2px black;
+    color:#f8a5c2;
+    margin-bottom:40px; 
+
+}
+#newsletter .input-group{
+    width: 40%;
+    min-width: 350px;
+    margin: 0 auto;
+
+}
+.input-group button{
+    background-color: #f8a5c2;
+}
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin:40px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color:#FFFAE1;
+}
+#icons{
+ display: flex;
+ flex-direction: row;
+    width: 50px;
+    text-align: right;
+}
+
+#icons a{
+ /*display: inline-block;*/
+ margin: 0 15px;
+ font-size: 1.3em;
+ color: #FFFAE1;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+} 
+
+
+/**********************************media query**************************/
+@media screen and (max-width: 990px){
+    
+}
+/* footer{
+    background-color: #8B5F3C; 
+    padding:20px 0px 10px 0px;
+    color:#FFFAE1;
+    text-align: center;
+} 
+#eva{
+    border:none;
+    width: 55%;
+    padding:15px 10px;
+    margin:1px 0px;
+    font-size: 1.2em;
+    font-family: 'Advent pro', sans-serif ;
+    border-radius: 8px;
+
+}
+form{
+    margin:0 auto;
+    max-width: 900px;
+}
+input,textarea{
+    border:none;
+    width: 55%;
+    padding:15px 10px;
+    margin:1px 0px;
+    font-size: 1.2em;
+    font-family: 'Advent pro', sans-serif ;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover{
+    background-color:  #fb8b82;;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin:40px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color:#FFFAE1;
+}
+#icons{
+ display: flex;
+ flex-direction: row;
+    width: 50px;
+    text-align: right;
+}
+
+#icons a{
+ /*display: inline-block;
+ margin: 0 15px;
+ font-size: 1.3em;
+ color: #FFFAE1;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+} */
